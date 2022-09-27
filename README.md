@@ -12,8 +12,8 @@
 ## Error: listen EADDRINUSE: address already in use
 
 You must run the application on another port.
-- Run `PORT=4242 npm run start` to start the app
-- Open your browser on `http://localhost:4242/health`
+- Run `PORT=XXXX npm run start` to start the app
+- Open your browser on `http://localhost:XXXX/health`
 
 ## Debug
 
@@ -36,6 +36,7 @@ You must run the application on another port.
  - **coverage** Tests code coverage information
  - **node_modules** Dependencies of the application
  - **src** Sources of the application
+    - **database** Database access object
     - **routes** Routes of the application
     - **services** Services of the application
     - **app.js** Application creation
